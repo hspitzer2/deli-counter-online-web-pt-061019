@@ -12,9 +12,8 @@ def now_serving(katz_deli)
 end
 
 def take_a_number (katz_deli, name)
-  katz_deli = line
-  line.push(name)
-  puts "Welcome, #{name}. You are number #{line.length} in line."
+  katz_deli.push(name)
+  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
 
